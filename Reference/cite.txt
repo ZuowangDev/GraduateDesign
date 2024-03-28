@@ -1,7 +1,0 @@
-[1]D. W. Kammler, "Calculation of Characteristic Admittances and Coupling Coefficients for Strip Transmission Lines," in IEEE Transactions on Microwave Theory and Techniques, vol. 16, no. 11, pp. 925-937, November 1968, doi: 10.1109/TMTT.1968.1126828.
-[2]A. E. Ruehli and P. A. Brennan, "Efficient Capacitance Calculations for Three-Dimensional Multiconductor Systems," in IEEE Transactions on Microwave Theory and Techniques, vol. 21, no. 2, pp. 76-82, Feb. 1973, doi: 10.1109/TMTT.1973.1127927.
-[3]T. Smedes, N. P. van der Meijs, A. J. van Genderen, P. J. H. Elias and R. R. J. Vanoppen, "Layout Extraction of 3D Models for Interconnect and Substrate Parasitics," ESSDERC '95: Proceedings of the 25th European Solid State Device Research Conference, The Hague, Netherlands, 1995, pp. 397-400. 
-
-
-
-

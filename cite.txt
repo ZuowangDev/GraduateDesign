@@ -1,0 +1,12 @@
+[1]D. W. Kammler, "Calculation of Characteristic Admittances and Coupling Coefficients for Strip Transmission Lines," in IEEE Transactions on Microwave Theory and Techniques, vol. 16, no. 11, pp. 925-937, November 1968, doi: 10.1109/TMTT.1968.1126828.
+[2]A. E. Ruehli and P. A. Brennan, "Efficient Capacitance Calculations for Three-Dimensional Multiconductor Systems," in IEEE Transactions on Microwave Theory and Techniques, vol. 21, no. 2, pp. 76-82, Feb. 1973, doi: 10.1109/TMTT.1973.1127927.
+[3]T. Smedes, N. P. van der Meijs, A. J. van Genderen, P. J. H. Elias and R. R. J. Vanoppen, "Layout Extraction of 3D Models for Interconnect and Substrate Parasitics," ESSDERC '95: Proceedings of the 25th European Solid State Device Research Conference, The Hague, Netherlands, 1995, pp. 397-400. 
+[4]喻文健,王泽毅.三维VLSI互连寄生电容提取的研究进展[J].计算机辅助设计与图形学学报,2003(01):21-28.
+[5]张瑛. VLSI中互连线工艺变化的若干问题研究[D].南京理工大学,2007.
+[6]陈宝君. 集成电路互连线电阻电感参数提取方法研究[D].大连理工大学,2013.
+[7]L. . -T. Hwang, D. Nayak, I. Turlik and A. Reisman, "Thin-film pulse propagation analysis using frequency techniques," in IEEE Transactions on Components, Hybrids, and Manufacturing Technology, vol. 14, no. 1, pp. 192-198, March 1991, doi: 10.1109/33.76531.
+[8]Y. I. Ismail, "On-chip inductance cons and pros," in IEEE Transactions on Very Large Scale Integration (VLSI) Systems, vol. 10, no. 6, pp. 685-694, Dec. 2002, doi: 10.1109/TVLSI.2002.808445.
+[9]K. K. Mei, R. Pous, Zhaoqing Chen, Yao-Wu Liu and M. D. Prouty, "Measured equation of invariance: a new concept in field computations," in IEEE Transactions on Antennas and Propagation, vol. 42, no. 3, pp. 320-328, March 1994, doi: 10.1109/8.280717.
+
+
+
