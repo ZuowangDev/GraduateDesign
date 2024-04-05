@@ -4,7 +4,7 @@
 ;******** Structure: CVM1_demo    **********
 ;*******************************************
 
-pcDefinePCell(list(ddGetObj("wujingyi") "CVM12_W0045.0_S0045.0_L60.0_F555.0" "layout")
+pcDefinePCell(list(ddGetObj("xvtianyi") "CVM12_W0045.0_S0045.0_L60.0_F555.0" "layout")
     (
     
     )
@@ -21,7 +21,7 @@ pcDefinePCell(list(ddGetObj("wujingyi") "CVM12_W0045.0_S0045.0_L60.0_F555.0" "la
     l2=0.15;                                   electrode width
     wh=49.905
     lh=60.3
-    start=55.1025                    
+    start=5.1975                    
 
     ;*************Define layer**********************
     (pcLayer1 = "M1")
@@ -47,8 +47,8 @@ pcDefinePCell(list(ddGetObj("wujingyi") "CVM12_W0045.0_S0045.0_L60.0_F555.0" "la
      for(i 0 n-1
        list2=list(0+l2:(i*w2+start) l1+l2:((w1+i*w2)+start))
        (pcInst = dbCreateRect(pcCellView 
-              list(pcLayer2 pcPurpose) 
-              list2))
+            list(pcLayer2 pcPurpose) 
+            list2))
       
     );for i loop
 
@@ -67,7 +67,7 @@ pcDefinePCell(list(ddGetObj("wujingyi") "CVM12_W0045.0_S0045.0_L60.0_F555.0" "la
     (pcInst = dbCreateRect(pcCellView 
         list(pcLayer1 pcPurpose) 
         list5))
-   list5=list(l1+l2:start (l1+l2+l2):((w1+(n-1)*w2)+start))
+    list5=list(l1+l2:start (l1+l2+l2):((w1+(n-1)*w2)+start))
     (pcInst = dbCreateRect(pcCellView 
         list(pcLayer2 pcPurpose) 
         list5))

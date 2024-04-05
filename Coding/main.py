@@ -257,7 +257,7 @@ class App(CTk):
         
         for key in self.template_dict:
             self.frame_dict[key] = loadframe(self.frame_right,key,self.template_dict[key])
-
+            print(type(self.frame_dict[key]))
         self.frame_select()
 
         self.init_dir()
