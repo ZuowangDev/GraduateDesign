@@ -22,7 +22,7 @@
 ;******** Structure: CCM1_demo    **********
 ;*******************************************
 
-pcDefinePCell(list(ddGetObj("xvtianyi") "CCM1_W00{W}_S00{S}_L{L}_F50_L" "layout")
+pcDefinePCell(list(ddGetObj("xutianyi") "CCM1_W00{W}_S00{S}_L{L}_F50_L" "layout")
     (
 
     )

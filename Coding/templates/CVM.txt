@@ -25,7 +25,7 @@
 ;******** Structure: CVM1_demo    **********
 ;*******************************************
 
-pcDefinePCell(list(ddGetObj("xvtianyi") "CVM12_W00{W}_S00{S}_L{L}_F{N}" "layout")
+pcDefinePCell(list(ddGetObj("xutianyi") "CVM12_W00{W}_S00{S}_L{L}_F{N}" "layout")
     (
     
     )

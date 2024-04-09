@@ -203,6 +203,11 @@ class loadframe(CTkFrame):
 
             # 含变量中缀表达式 > 只含数字的中缀表达式 > 逆波兰表达式 > 计算结果
             self.parameter_value[key] = round(evaluate_postfix(infix_to_postfix(replace_variables(self.expression[key],self.parameter_value))), 4)
+
+        for key in self.parameter_value:
+            self.parameter_value[key] = float(self.parameter_value[key])
+            if isinstance(self.parameter_value[key], float) and self.parameter_value[key].is_integer():  
+                self.parameter_value[key] = int(self.parameter_value[key])
  
         self.content_processed = self.content.format(**self.parameter_value)
 
@@ -257,7 +262,6 @@ class App(CTk):
         
         for key in self.template_dict:
             self.frame_dict[key] = loadframe(self.frame_right,key,self.template_dict[key])
-            print(type(self.frame_dict[key]))
         self.frame_select()
 
         self.init_dir()
